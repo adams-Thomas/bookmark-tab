@@ -1,0 +1,11 @@
+{
+  "name": "Bookmark and all new tab",
+  "description": "Replaces the new tab with a list of your bookmarks as well as some other optiosn to be added later.",
+  "version": "0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "tab.html"
+  },
+  "manifest_version": 3,
+  "permissions": ["bookmarks"]
+}
